@@ -1,3 +1,5 @@
+// https://codeforces.com/contest/356/problem/A   == trick1 (store index of next term to show that the next term is alive )
+
 class union_find{
     
     public:
