@@ -41,6 +41,7 @@ ll ncr(ll n , ll r ){
 
 int main() {
     init();
+    cout<<ifact[2]<<endl;
     ll ans = ncr(6 , 3 );
     cout<<ans<<endl;
 }

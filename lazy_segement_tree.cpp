@@ -28,7 +28,7 @@ void push(int v , int l , int r ){
 void upd(int v , int l , int r , int tl , int tr , int val ){
     if(l == tl && r == tr ){
         st[v] += val*(r-l+1) ;
-        lz[v] += val ;  
+        lz[v] += val ;          // means it this node got its answer and it will paseed on to its children wheen required   
         return ;
     }
     else if( tr < l || tl > r ) return ;
