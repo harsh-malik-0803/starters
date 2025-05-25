@@ -17,9 +17,9 @@ void findinverse( ){
 }
 
 void init(){
-    fact.resize(N , 0 );
-    ifact.resize(N , 0 );
-    inverseofi.resize(N , 0 );
+    fact.resize(N + 2 , 0 );
+    ifact.resize(N + 2, 0 );
+    inverseofi.resize(N + 2 , 0 );
 
     fact[0] = fact[1] = ifact[0] = ifact[1] = inverseofi[0] = inverseofi[1] = 1 ;
     for(int i = 2 ; i<= N ; ++i ){
